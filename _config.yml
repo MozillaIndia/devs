@@ -1,0 +1,6 @@
+name: MozIN MahaDevs
+markdown: kramdown
+highlighter: pygments
+permalink: :title/
+kramdown:
+    input: GFM
