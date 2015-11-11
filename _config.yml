@@ -1,8 +1,8 @@
-markdown: kramdown
+markdown: redcarpet
+redcarpet:
+    extensions: ["autolink", "strikethrough"]
 highlighter: pygments
 permalink: :title/
-kramdown:
-    input: GFM
 email: admin@mozillaindia.org
 title: MozIN MahaDevs
 description: > # this means to ignore newlines until "baseurl:"
