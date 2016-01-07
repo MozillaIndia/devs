@@ -1,0 +1,253 @@
+/**
+ * Site header
+ */
+.site-header {
+    font-family: 'Source Sans Pro', sans-serif;
+    min-height: 56px;
+    max-width: 940px;
+    margin: 0 auto;
+    padding: 0 10px;
+    // Positioning context for the mobile navigation icon
+    position: relative;
+}
+
+.site-header::before {
+    content: '';
+    position: absolute;
+    width: 100%;
+}
+
+.site-title {
+    font-size: 26px;
+    line-height: 56px;
+    letter-spacing: -1px;
+    margin-bottom: 0;
+    float: left;
+    color: #444;
+}
+
+.site-nav {
+    float: right;
+    line-height: 56px;
+
+
+    .page-link {
+        color: #444;
+    }
+    .page-link {
+        display: block;
+        padding: 5px 10px;
+    }
+}
+
+/**
+ * Page content
+ */
+.page-content {
+    padding: $spacing-unit 0;
+}
+
+.page-heading {
+    font-size: 20px;
+}
+
+.post-list {
+    margin-left: 0;
+    list-style: none;
+
+    > li {
+        margin-bottom: $spacing-unit;
+    }
+}
+
+.post-meta {
+    font-size: $small-font-size;
+    color: $grey-color;
+}
+
+.post-link {
+    display: block;
+    font-size: 24px;
+}
+
+
+
+/**
+ * Posts
+ */
+.post-header {
+    font-family: 'Source Sans Pro', sans-serif;
+    color: #373737;
+    max-width: 540px;
+    padding: 0px 10px;
+    margin: 0 auto;
+    margin-bottom: $spacing-unit;
+}
+
+.post-title {
+    font-size: 42px;
+    letter-spacing: -1px;
+    line-height: 1;
+
+    @include media-query($on-laptop) {
+        font-size: 36px;
+    }
+}
+
+.post-content {
+    font-family: 'Open Sans', sans-serif;
+    color: #373737;
+    margin-bottom: $spacing-unit;
+    max-width: 540px;
+    margin: 0 auto;
+
+    p {
+
+        padding: 0px 10px;
+        line-height: 26px;
+        margin-bottom: 20px;
+    }
+
+    h2 {
+        font-size: 32px;
+        font-family: 'Source Sans Pro', sans-serif;
+
+        @include media-query($on-laptop) {
+            font-size: 28px;
+        }
+
+        padding: 0px 10px;
+        margin-bottom: 20px;
+    }
+
+    h3 {
+        font-size: 26px;
+        font-family: 'Source Sans Pro', sans-serif;
+
+        @include media-query($on-laptop) {
+            font-size: 22px;
+        }
+
+        padding: 0px 10px;
+        margin-bottom: 20px;
+    }
+
+    h4 {
+        font-size: 20px;
+        font-family: 'Source Sans Pro', sans-serif;
+
+        @include media-query($on-laptop) {
+            font-size: 18px;
+        }
+
+        padding: 0px 10px;
+        margin-bottom: 20px;
+    }
+
+    .highlight {
+        font-family: Consolas;
+        color: #333;
+        z-index: -1;
+        background: #fafafd;
+        border: 0.063em solid #dedede;
+        border-right: 0em solid #fff;
+        line-height: 1.5em;
+        padding-top: 1em;
+        padding-bottom: 1em;
+        left: 0;
+        right: 0;
+        margin: 20px 0px;
+    }
+
+    ul {
+        padding: 0 10px;
+        padding-left: 40px;
+        margin-bottom: 20px;
+    }
+}
+
+/**
+ * Home
+ */
+.home {
+    max-width: 540px;
+    margin: 0 auto;
+    padding: 0 10px;
+}
+
+.home  a {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 36px;
+    color: #444;
+    padding: 10px;
+}
+
+.home a:hover {
+    background: #fafafd;
+    outline:  1px solid #C3D5E4;
+}
+
+.home  a::before {
+    width: 0;
+}
+
+.home .post-meta {
+    text-align: right;
+}
+
+.cover {
+    color: rgb(241, 241, 241);
+    min-height: 100%;
+    background: url('../img/dino.jpg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    padding-bottom: 10px;
+}
+
+.site-name {
+    max-width: 940px;
+    padding: 0 10px;
+    margin: 0 auto;
+    text-align: right;
+    min-height: 100%;
+}
+
+.site-name__inner {
+    padding-top: 150px;
+    width: 100%;
+    margin: auto 10px auto auto;
+    width: 420px;
+    @include media-query($on-palm) {
+        width: 90%;
+    }
+}
+
+.site-name__inner .name {
+    font-size: 50px;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.site-name__inner .desc {
+    font-size: 20px;
+    font-family: 'Open Sans', sans-serif;
+    background-color: rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.site-name__inner .btn {
+    padding: 10px 30px;
+    border: 2px solid #fff;
+    background-color: rgba(0, 0, 0, 0.3);
+    display: inline-block;
+    margin-top: 100px;
+    border-radius: 3px;
+    cursor: pointer;
+    color: #F1F1F1;
+    &:hover {
+        background-color: white;
+        color: black;
+    }
+}
