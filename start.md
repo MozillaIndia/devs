@@ -54,4 +54,4 @@ The things you will definitely need are:
 
 ## Apply to be a MahaDev ##
 
-If you haven't done so already, fill this application form and one of us will get in touch with you.
+If you haven't done so already, find, fill and submit the application form. One of us will get in touch with you.
