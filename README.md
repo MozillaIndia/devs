@@ -10,4 +10,4 @@ And we want you to have the fun.
 
 ## And how?
 
-Let's say, [start here](http://devs.mozillaindia.org)
+Let's say, [start here](http://mozillaindia.org/devs/)
