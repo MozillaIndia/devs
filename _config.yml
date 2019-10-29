@@ -8,7 +8,7 @@ title: MozIN MahaDevs
 description: > # this means to ignore newlines until "baseurl:"
   We are makers. We are hackers. We build things. We break things. We code, we learn, we code, we play, we teach, we code, we sleep, we code, we think, we code.<br><br>
   And we want you to join us!
-# baseurl: "/" # the subpath of your site, e.g. /blog/
-url: "http://devs.mozillaindia.org" # the base hostname & protocol for your site
+baseurl: "/devs/" # the subpath of your site, e.g. /blog/
+url: "http://mozillaindia.org/" # the base hostname & protocol for your site
 twitter_username: MozINMahaDevs
 github_username:  MozillaIndia
