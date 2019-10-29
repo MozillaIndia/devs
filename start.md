@@ -7,9 +7,9 @@ permalink: /start/
 ## Welcome, hacker! ##
 
 Becoming a developer is very easy.
-Becoming a MahaDev takes some hard work.
+Becoming a MahaDev requires some hard work.
 
-If you are committed and curious, we'll help you reach there.
+If you're committed and curious, we'll help you reach there.
 
 ## How does it work? ##
 
@@ -18,13 +18,13 @@ In our day to day life at Mozilla we work on and come across a lot of bugs. Fixi
 1. Knowledge
 2. Time
 
-And unfortunately, while many people have both of these, most people have only one. What do you do when you have a sock from one pair and another from a different pair? You pair what you have up.
+And unfortunately, while many people have both of these, most people have only one. What do you do when you have a sock from one pair and another from a different pair? You pair what you have.
 
-And that's what we will do. We will put people who know how to fix things with people who have time to fix things. If all goes well, in some time, we'll have two people who know how to fix things and at least one with time to.
+And that's what we will do. We will put people who know how to fix things with people who have the time to fix things. If all goes well, in some time, we'll have two people who know how to fix things and at least one with the time to.
 
 ## Pre-requisites ##
 
-The things you will definitely need are:
+Things you will need are:
 
 * curiosity,
 * devoted time,
@@ -54,4 +54,4 @@ The things you will definitely need are:
 
 ## Apply to be a MahaDev ##
 
-If you haven't done so already, fill this application form and one of us will get in touch with you.
+If you haven't done so already, fill this application form and we will get in touch with you.
