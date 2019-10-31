@@ -54,4 +54,4 @@ Things you will need are:
 
 ## Apply to be a MahaDev ##
 
-If you haven't done so already, join our [Telegram group]() and we will get in touch with you.
+If you haven't done so already, join our [Telegram group](https://t.me/joinchat/AFfAPBY1C4c4lGdAy9bdMw) and we will get in touch with you.
