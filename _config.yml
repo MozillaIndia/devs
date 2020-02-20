@@ -1,7 +1,7 @@
 markdown: redcarpet
 redcarpet:
     extensions: ["autolink", "strikethrough"]
-highlighter: pygments
+highlighter: rouge
 permalink: :title/
 email: admin@mozillaindia.org
 title: MozIN MahaDevs
